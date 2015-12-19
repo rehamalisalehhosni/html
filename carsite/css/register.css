@@ -1,0 +1,39 @@
+.headerh1{     
+    color:#ed1e24;
+    padding: 20px  0 20px 0;
+}
+.form{
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+    border:  solid 1px rgba(238, 238, 238, 0.3);
+}
+.form input{
+    margin-left: 10px;
+}.gender{
+    padding-left: 10px;
+}
+.form input[type=text],[type=password]{
+    padding:0px 20px;	
+    border: 2px solid blue;
+    background-color: #666;
+    color: white;
+}
+.form select {
+    padding:0px 20px;	
+    border: 2px solid blue;
+    background-color: #666;
+    color: white;
+}
+.form input[type=submit] {
+    background-color: #F00;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}.content{
+    text-align: left;
+    padding-left: 10px;
+}
