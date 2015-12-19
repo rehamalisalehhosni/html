@@ -18,18 +18,17 @@ background:rgba(34, 32, 32, 0.29);
 }
 .forms{
 float:right;
-height:200;
-width:900;
-margin:200;
-margin-right: -240;
 margin-top: 30;
+float: right;
+width: 60%;
 
 }
-form  input{
+.forms  input{
 margin-top:5;
 width:500;
 background:rgba(34, 32, 32, 0.29);
 margin-bottom: 20;
+color: #fff;
 
 }
 form textarea{
@@ -48,10 +47,10 @@ margin-right: -297;
 }
 .desc{
 float:left;
-margin-top: -366;
-margin-left: 60;
+margin-top: 46;
 color:#fff;
-
+width: 30%;
+padding-left: 10%;
 }
 label{color:#fff;
 margin:0;
