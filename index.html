@@ -1,0 +1,65 @@
+<html>
+
+
+<body>
+<div class="container">
+  <div class="corner"><span>20% Special Offer</span></div>
+  <div class="corner2"><span>20% Special Offer</span></div>
+</div>
+
+/*Responsive CSS triangles. Resize the Result section to see the triangles in action.*/
+<style>
+.container {
+  width: 250px;
+  height: 250px;
+  position:relative;
+  background-color:grey;
+}
+
+.corner {
+  width: 0; 
+	height: 0; 
+	border-top: 150px solid #ffcc00;
+	border-bottom: 150px solid transparent;
+	border-right: 150px solid transparent;
+}
+
+.corner span {
+  position:absolute;
+  top: 35px;
+  width: 100px;
+  left: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  transform: rotate(-45deg);
+  display:block;
+}
+.corner2 {
+      width: 0;
+    height: 0;
+    border-bottom: 150px solid #1000ff;
+    border-top: 150px solid transparent;
+    border-left: 150px solid transparent;
+    position: absolute;
+    top: -149px;
+
+}
+
+.corner2 span {
+      position: absolute;
+    top: 100px;
+    width: 100px;
+    left: -93px;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+    transform: rotate(-45deg);
+    display: block;
+}
+}
+
+</style>
+
+</body>
+</html>
